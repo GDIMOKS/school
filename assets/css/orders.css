@@ -1,0 +1,125 @@
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 20px 20px;
+}
+
+.grociers {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.order {
+    box-shadow: 0 0 10px #00000020;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.date_order {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.course {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #00000020;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.consult_text {
+    font-size: 18px;
+    font-weight: 300;
+    width: 200px;
+}
+
+.title {
+    width: 500px;
+}
+.show-profit-form,
+.show-rating-form,
+.show-orders-form {
+    display: flex;
+    margin: 50px 50px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.status,
+.count,
+.sum {
+    display: flex;
+    width: inherit;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.status_sum {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart_buttons {
+    display: flex;
+    align-items: center;
+}
+
+.name_container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+
+.cart_container {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: space-between;
+
+}
+.cost_container {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    font-size: 18px;
+    font-weight: 300;
+}

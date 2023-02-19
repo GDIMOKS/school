@@ -1,0 +1,130 @@
+.products {
+    display: flex;
+    /*justify-content: center;*/
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+    max-height: 400px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #0000001F;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000020;
+    background-color: white;
+}
+
+.product_image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 0 0 10px #00000010;
+
+
+}
+
+
+.product_info {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    word-wrap: break-word;
+
+}
+
+
+.product_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 50px;
+    color: #4160c5;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product_name:hover{
+    text-decoration: underline;
+}
+
+.product_price {
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+}
+
+.product_button {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #ff8c39;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    box-shadow: 0 0 10px #00000020;
+    height: 100%;
+}
+
+.product_button:hover {
+    background: #c46b2c;
+}
+
+.product_count {
+    font-size: 35px;
+}
+
+.card-btn {
+    display: flex;
+    width: 50px;
+    font-size: 35px;
+    padding: 0;
+}
+
+.category_name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    /*font-weight: bolder;*/
+    font-size: 25px;
+    /*background-color: #d9d9d9;*/
+    /*box-shadow: 0 0 10px #00000020;*/
+
+}
+
+.name {
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
